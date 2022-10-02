@@ -1,0 +1,4 @@
+select avg(rental_rate) from film;
+SELECT count (*) from film WHERE title like 'C%';
+SELECT max (length) from film WHERE rental_rate =0.99;
+SELECT count(distinct	replacement_cost) from film where length >150;
